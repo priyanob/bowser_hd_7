@@ -235,7 +235,7 @@ on boot
     chown system system /sys/class/backlight/bowser/brightness
 
 # Initialize the SGX driver
-service pvrsrvinit /vendor/bin/pvrsrvinit
+service pvrsrvinit /system/bin/pvrsrvinit
     class core
     user root
     group root
