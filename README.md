@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CM10-Jellybean for Kindle Fire HD
 Slightly based on Hashcode's Nook Tablet JB repo
 Slightly based on VeryGreen's Kindle Fire HD 8.9 Tablet JB repo
@@ -35,3 +36,5 @@ repo sync -j16
 lunch cm_bowser-userdebug
 . vendor/cm/get-prebuilts
 mka bacon
+=======
+>>>>>>> 4c660b7637b861144051022c1f96dfa8d7918971
