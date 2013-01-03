@@ -41,4 +41,21 @@ lunch cm_bowser-userdebug
 . vendor/cm/get-prebuilts
 mka bacon
 =======
->>>>>>> 4c660b7637b861144051022c1f96dfa8d7918971
+
+
+============
+Dirty Fix for mounting sdcard
+Edit 
+system/core/init/builtins.c
+ammend strut to include
+
+static struct {
+         const char *name;
+         unsigned flag;
+} mount_flags[] = {
+
++       { "bind",          MS_BIND  },
+         { "move",         MS_MOVE },
+         { "noatime",   MS_NOATIME },
+         { "nosuid",     MS_NOSUID },
+
