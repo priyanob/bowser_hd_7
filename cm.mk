@@ -34,7 +34,7 @@ TARGET_HAS_CUSTOM_LIBION := true
 PRODUCT_NAME := cm_bowser
 PRODUCT_DEVICE := bowser
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := Amazon Kindle Fire HD
+PRODUCT_MODEL := Amazon Kindle Fire HD 7
 PRODUCT_MANUFACTURER := Amazon
 PRODUCT_RELEASE_NAME := KindleFireHD
 

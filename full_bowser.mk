@@ -30,5 +30,5 @@ $(call inherit-product, device/amazon/bowser/device.mk)
 PRODUCT_NAME := full_bowser
 PRODUCT_DEVICE := bowser
 PRODUCT_BRAND := amazon
-PRODUCT_MODEL := Kindle Fire HD
+PRODUCT_MODEL := Kindle Fire HD 7
 PRODUCT_MANUFACTURER := amazon
